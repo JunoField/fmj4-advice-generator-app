@@ -81,6 +81,11 @@ body{
     right: 0px;
     bottom: 0px;
     font-size: 8px;
+    color: var(--lightCyan);
+}
+
+.attribution a{
+    color: var(--NeonGreen);
 }
 
 
