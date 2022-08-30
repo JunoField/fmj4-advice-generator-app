@@ -49,9 +49,13 @@ body{
     margin-bottom: 23px
 }
 
-#divider-img{
+#divider-img-mobile{
     display: block;
     margin-bottom: 66px;
+}
+
+#divider-img-desktop{
+    display: none;
 }
 
 #randomise-btn{
@@ -77,4 +81,35 @@ body{
     right: 0px;
     bottom: 0px;
     font-size: 8px;
+}
+
+
+@media only screen and (min-width: 700px){
+    :root{
+        font-size: 28px;
+    }
+
+    #centre-card{
+        width: 540px;
+        transform: translate(-50%, -55%);
+    }
+
+    #quote-id{
+        margin-top: 47px;
+    }
+
+    #quote{
+        margin-top: 15px;
+        margin-inline: 40px;
+        margin-bottom: 40px;
+    }
+
+    #divider-img-mobile{
+        display: none;
+    }
+    
+    #divider-img-desktop{
+        display: unset;
+        margin-bottom: 70px;
+    }
 }
