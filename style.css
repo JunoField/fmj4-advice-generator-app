@@ -1,0 +1,49 @@
+:root{
+    --lightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+
+    --grayishBlue: hsl(217, 19%, 38%);
+    --darkGrayishBlue: hsl(217, 19%, 24%);
+    --darkBlue: hsl(218, 23%, 16%);
+
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: var(--darkBlue);
+    text-align: center;
+    margin: 0px;
+}
+
+#centre-card{
+    background-color: var(--darkGrayishBlue);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 92%;
+}
+
+
+#quote-id{
+    font-size: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: var(--NeonGreen);
+
+    margin-top: 40px;
+}   
+
+#quote{
+
+}
+
+
+.attribution{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 8px;
+}
